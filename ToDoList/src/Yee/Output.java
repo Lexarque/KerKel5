@@ -3,6 +3,8 @@ package Yee;
 import java.util.ArrayList;
 
 public class Output {
+    
+    // Method untuk menampilkan tasks yang sudah selesai
 
     public void done(ArrayList<String> done, ArrayList<String> Ndone) {
         if (done.size() == 0) {
@@ -19,6 +21,8 @@ public class Output {
             System.out.println("Task yang sudah diselesaikan ada : " + done.size());
         }
     }
+    
+    //Method untuk menampilkan task yang ada dan belum selesai
 
     public void Ndone(ArrayList<String> Ndone) {
         if(Ndone.size() == 0){
